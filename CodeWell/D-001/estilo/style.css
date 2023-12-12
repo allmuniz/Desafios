@@ -15,7 +15,7 @@ html, body{
 }
 h1, h2{
     font-family: var(--font01);
-    font-size: 2.5em;
+    font-size: 2em;
     padding-bottom: 10px;
 }
 p{
@@ -42,6 +42,7 @@ main{
     max-width: 600px;
     margin: auto;
     padding: 10px;
+    padding-bottom: 60px;
 }
 section#logos{
     max-width: 350px;
@@ -51,16 +52,10 @@ section#logos{
 section#logos img{
     padding: 5px;
 }
-section#img1{
-    background-color: yellow;
-}
 section#img1 img{
     max-width: 96vw;
     display: block;
     margin: auto;
-}
-section#img2{
-    background-color: green;
 }
 section#img2 img{
     max-width: 96vw;
@@ -69,4 +64,32 @@ section#img2 img{
 }
 section#cofunder{
     background-color: gray;
+}
+main button{
+    height: 50px;
+    width: 150px;
+    background-color: yellow;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+footer{
+    height: 50px;
+    max-width: 96vw;
+    background-color: blue;
+}
+footer p{
+    width: 47vw;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    float: left;
+}
+section#img3{
+    width: 47vw;
+    padding-top: 10px;
+    padding-left: 5px;
+    float: right;
+    text-align: left;
 }

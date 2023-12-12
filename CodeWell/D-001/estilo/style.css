@@ -76,20 +76,18 @@ main button{
 footer{
     height: 50px;
     max-width: 96vw;
-    background-color: blue;
 }
 footer p{
-    width: 47vw;
+    width: 50vw;
     text-align: right;
     padding-top: 15px;
     padding-bottom: 0px;
-    padding-right: 5px;
+    padding-right: 0px;
     float: left;
 }
 section#img3{
-    width: 47vw;
+    width: 45vw;
     padding-top: 10px;
-    padding-left: 5px;
     float: right;
     text-align: left;
 }

@@ -27,6 +27,7 @@ header{
     background-color: black;
     color: white;
     height: 120px;
+    width: 100vw;
 }
 header h1{
     padding-top: 50px;
@@ -54,6 +55,14 @@ span#burguer:hover{
     background-color: white;
     color: black;
     cursor: pointer;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
 }
 main{
     max-width: 100vw;

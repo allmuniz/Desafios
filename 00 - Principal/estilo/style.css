@@ -3,12 +3,57 @@
     margin: 0px;
     padding: 0px;
 }
+li{
+    width: 100px;
+    padding: 5px;
+}
 header{
     background-color: blue;
 }
+main{
+    max-width: 900px;
+    margin: auto;
+    border: 10px;
+    background-color: white;
+}
 section#codewell{
     background-color: lightblue;
+    height: 40vh;
+}
+section#codewell > div#listacw{
+    background-color: aqua;
+    height: 40vh;
+    width: 40vw;
+    float: left;
+}
+section#codewell > div#imgcw{
+    height: 40vh;
+    
+    float: right;
+}
+section#codewell > div#imgcw > img{
+    height: 40vh;
+    
 }
 section#cursoemvideo{
     background-color: aquamarine;
+    height: 40vh;
+}
+section#cursoemvideo > div#listacv{
+    background-color: aqua;
+    height: 40vh;
+    width: 40vw;
+    float: left;
+    text-align: center;
+}
+section#cursoemvideo > div#listacv > ul{
+    columns: 2;
+}
+section#cursoemvideo > div#imgcv{
+    height: 40vh;
+    
+    float: right;
+}
+section#cursoemvideo > div#imgcv > img{
+    height: 40vh;
 }

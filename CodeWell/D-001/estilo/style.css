@@ -116,3 +116,6 @@ section#footer > section#img3{
     left: 62%;
     transform: translate(0%, -150%);
 }
+section#footer > p{
+    text-align: center;
+}

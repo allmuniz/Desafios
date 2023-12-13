@@ -3,6 +3,10 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background: black url(../imagem/background.jpg.jpg) center center fixed;
+    background-size: cover;
+}
 li{
     width: 100px;
     padding: 5px;
@@ -17,11 +21,10 @@ main{
     background-color: white;
 }
 section#codewell{
-    background-color: lightblue;
+    background-color: #F4F4F4;
     height: 40vh;
 }
 section#codewell > div#listacw{
-    background-color: aqua;
     height: 40vh;
     width: 40vw;
     float: left;
@@ -36,11 +39,10 @@ section#codewell > div#imgcw > img{
     
 }
 section#cursoemvideo{
-    background-color: aquamarine;
+    background-color: #2424ff;
     height: 40vh;
 }
 section#cursoemvideo > div#listacv{
-    background-color: aqua;
     height: 40vh;
     width: 40vw;
     float: left;
@@ -48,6 +50,10 @@ section#cursoemvideo > div#listacv{
 }
 section#cursoemvideo > div#listacv > ul{
     columns: 2;
+    
+}
+section#cursoemvideo > div#listacv > ul > li > a{
+    color: white;
 }
 section#cursoemvideo > div#imgcv{
     height: 40vh;

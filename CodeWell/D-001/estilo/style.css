@@ -17,6 +17,7 @@ h1, h2{
     font-family: var(--font01);
     font-size: 2em;
     padding-bottom: 10px;
+    text-align: justify;
 }
 p{
     text-indent: 10px;
@@ -26,7 +27,7 @@ p{
 header{
     background-color: black;
     color: white;
-    height: 150px;
+    height: 120px;
 }
 header h1{
     padding-top: 50px;

@@ -1,5 +1,16 @@
 @charset "UTF-8";
 @media screen and (min-width: 768px) and (max-width: 992px){
+    h1{
+        font-family: var(--font01);
+        font-size: 2em;
+        padding-bottom: 10px;
+    }
+    h2{
+        font-family: var(--font01);
+        font-size: 2em;
+        padding-bottom: 10px;
+        text-align: center;
+    }
     span#burguer{
         width: 50px;
         background-color: black;
@@ -12,8 +23,8 @@
         top: 7%;
     }
     main{
-        max-width: 900px;
-        margin: auto;
+        background-color: blue;
+        max-width: 992px;
         padding: 10px;
         padding-bottom: 60px;
     }
@@ -34,6 +45,20 @@
         width: 70vw;
         display: block;
         margin: auto;
+    }
+    section#footer{
+        background-color: black;
+        height: 40px;
+        max-width: 96vw;
+        position: relative;
+        left: 46%;
+        transform: translate(-50%, 150%);
+    }
+    section#footer > section#img3{
+        width: 60px;
+        position: relative;
+        left: 56%;
+        transform: translate(0%, -150%);
     }
 }
 @media screen and (min-width: 992px){

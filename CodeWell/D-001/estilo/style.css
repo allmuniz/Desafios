@@ -17,7 +17,6 @@ h1, h2{
     font-family: var(--font01);
     font-size: 2em;
     padding-bottom: 10px;
-    text-align: justify;
 }
 p{
     text-indent: 10px;

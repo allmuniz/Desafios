@@ -1,7 +1,43 @@
 @charset "UTF-8";
 @media screen and (min-width: 768px) and (max-width: 992px){
-
+    span#burguer{
+        width: 50px;
+        background-color: black;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 2.5px;
+        position: absolute;
+        left: 90%;
+        top: 7%;
+    }
+    main{
+        max-width: 900px;
+        margin: auto;
+        padding: 10px;
+        padding-bottom: 60px;
+    }
+    section#logos{
+        max-width: 450px;
+        margin: auto;
+        text-align: center;
+    }
+    section#logos img{
+        padding: 10px;
+    }
+    section#img1 img{
+        width: 70vw;
+        display: block;
+        margin: auto;
+    }
+    section#img2 img{
+        width: 70vw;
+        display: block;
+        margin: auto;
+    }
 }
 @media screen and (min-width: 992px){
-    
+    menu{
+        display: block;
+    }
 }

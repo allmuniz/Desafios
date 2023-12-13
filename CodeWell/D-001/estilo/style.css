@@ -75,7 +75,7 @@ main{
     padding-bottom: 60px;
 }
 section#logos{
-    max-width: 350px;
+    max-width: 325px;
     margin: auto;
     text-align: center;
 }
@@ -94,6 +94,7 @@ section#img2 img{
 }
 section#cofunder{
     background-color: gray;
+    padding: 10px;
 }
 main button{
     height: 50px;

@@ -10,7 +10,7 @@
 html, body{
     background-color: black;
     color: white;
-    width: 100vw;
+    width: 80vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1, h2{
@@ -21,6 +21,7 @@ h1, h2{
 p{
     text-indent: 10px;
     padding-bottom: 20px;
+    text-align: center;
 }
 header{
     background-color: black;
@@ -38,20 +39,6 @@ header button{
 menu{
     display: none;
 }
-menu > ul{
-    list-style-type: none;
-}
-menu > ul > li > a{
-    display: block;
-    text-decoration: none;
-    background-color: rgb(78, 78, 78);
-    color: white;
-    text-align: center;
-    border-top: 2px solid gray;
-}
-menu > ul > li > a:hover{
-    background-color: gray;
-}
 span#burguer{
     width: 50px;
     background-color: black;
@@ -60,7 +47,7 @@ span#burguer{
     text-align: center;
     padding: 2.5px;
     position: absolute;
-    left: 75%;
+    left: 85%;
     top: 7%;
 }
 span#burguer:hover{
@@ -69,10 +56,12 @@ span#burguer:hover{
     cursor: pointer;
 }
 main{
-    max-width: 600px;
+    max-width: 100vw;
     margin: auto;
     padding: 10px;
     padding-bottom: 60px;
+    position: absolute;
+    
 }
 section#logos{
     max-width: 325px;
@@ -83,12 +72,12 @@ section#logos img{
     padding: 5px;
 }
 section#img1 img{
-    max-width: 96vw;
+    max-width: 85vw;
     display: block;
     margin: auto;
 }
 section#img2 img{
-    max-width: 96vw;
+    max-width: 85vw;
     display: block;
     margin: auto;
 }
@@ -104,21 +93,17 @@ main button{
     left: 50%;
     transform: translate(-50%);
 }
-footer{
-    height: 50px;
+section#footer{
+    background-color: black;
+    height: 40px;
     max-width: 96vw;
+    position: relative;
+    left: 43%;
+    transform: translate(-50%, 150%);
 }
-footer p{
-    width: 53vw;
-    text-align: right;
-    padding-top: 15px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    float: left;
-}
-section#img3{
-    width: 42vw;
-    padding-top: 10px;
-    float: right;
-    text-align: left;
+section#footer > section#img3{
+    width: 60px;
+    position: relative;
+    left: 62%;
+    transform: translate(0%, -150%);
 }

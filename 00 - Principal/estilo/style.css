@@ -30,17 +30,36 @@ main{
     border: 10px;
 }
 div.curso{
-    background-color: lightblue;
     margin: 10px;
+    display: flex;
 }
 div#codewell{
-    display: flex;
+    background-color: #F6F6F6;
 }
 div#listacodewell{
     width: 90px;
+}
+div#listacodewell > ul > li > a{
+    color: black;
 }
 div#imagemcodewell{
     width: 150px;
     height: 150px;
     margin-left: 20px;
+}
+/*------------------------------*/
+div#cursoemvideo{
+    background-color: #2222FF;
+}
+div#listacursoemvideo{
+    width: 90px;
+}
+div#listacursoemvideo > ul > li > a{
+    color: white;
+}
+div#imagemcursoemvideo{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 105px;
 }

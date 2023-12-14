@@ -17,6 +17,10 @@ li{
 a{
     text-decoration: none;
 }
+img{
+    height: 150px;
+    width: 150px;
+}
 header{
     background-color: blue;
 }
@@ -28,4 +32,15 @@ main{
 div.curso{
     background-color: lightblue;
     margin: 10px;
+}
+div#codewell{
+    display: flex;
+}
+div#listacodewell{
+    width: 90px;
+}
+div#imagemcodewell{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
 }

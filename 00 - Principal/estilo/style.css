@@ -15,51 +15,7 @@ header{
     background-color: blue;
 }
 main{
-    max-width: 400px;
+    max-width: 300px;
     margin: auto;
     border: 10px;
-}
-section#codewell{
-    background-color: #F4F4F4;
-    height: 40vh;
-}
-section#codewell > div#listacw{
-    height: 40vh;
-    width: 40vw;
-    float: left;
-}
-section#codewell > div#imgcw{
-    height: 40vh;
-    
-    float: right;
-}
-section#codewell > div#imgcw > img{
-    height: 30vh;
-    
-}
-
-
-section#cursoemvideo{
-    background-color: #2424ff;
-    height: 35vh;
-}
-section#cursoemvideo > div#listacv{
-    height: 40vh;
-    width: 40vw;
-    float: left;
-    text-align: center;
-}
-section#cursoemvideo > div#listacv > ul{
-    columns: 2;
-}
-section#cursoemvideo > div#listacv > ul > li > a{
-    color: white;
-}
-section#cursoemvideo > div#imgcv{
-    height: 30vh;
-    
-    float: right;
-}
-section#cursoemvideo > div#imgcv > img{
-    height: 30vh;
 }

@@ -8,17 +8,16 @@ body{
     background-size: cover;
 }
 li{
-    width: 100px;
+    width: 80px;
     padding: 5px;
 }
 header{
     background-color: blue;
 }
 main{
-    max-width: 900px;
+    max-width: 400px;
     margin: auto;
     border: 10px;
-    background-color: white;
 }
 section#codewell{
     background-color: #F4F4F4;
@@ -26,7 +25,7 @@ section#codewell{
 }
 section#codewell > div#listacw{
     height: 40vh;
-    width: 40vw;
+    width: 30vw;
     float: left;
 }
 section#codewell > div#imgcw{
@@ -35,31 +34,32 @@ section#codewell > div#imgcw{
     float: right;
 }
 section#codewell > div#imgcw > img{
-    height: 40vh;
+    height: 30vh;
     
 }
+
+
 section#cursoemvideo{
     background-color: #2424ff;
     height: 40vh;
 }
 section#cursoemvideo > div#listacv{
     height: 40vh;
-    width: 40vw;
+    width: 30vw;
     float: left;
     text-align: center;
 }
 section#cursoemvideo > div#listacv > ul{
     columns: 2;
-    
 }
 section#cursoemvideo > div#listacv > ul > li > a{
     color: white;
 }
 section#cursoemvideo > div#imgcv{
-    height: 40vh;
+    height: 30vh;
     
     float: right;
 }
 section#cursoemvideo > div#imgcv > img{
-    height: 40vh;
+    height: 30vh;
 }

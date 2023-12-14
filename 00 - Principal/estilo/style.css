@@ -25,7 +25,7 @@ section#codewell{
 }
 section#codewell > div#listacw{
     height: 40vh;
-    width: 30vw;
+    width: 40vw;
     float: left;
 }
 section#codewell > div#imgcw{
@@ -41,11 +41,11 @@ section#codewell > div#imgcw > img{
 
 section#cursoemvideo{
     background-color: #2424ff;
-    height: 40vh;
+    height: 35vh;
 }
 section#cursoemvideo > div#listacv{
     height: 40vh;
-    width: 30vw;
+    width: 40vw;
     float: left;
     text-align: center;
 }

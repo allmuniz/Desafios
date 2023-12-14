@@ -7,9 +7,15 @@ body{
     background: black url(../imagem/background.jpg.jpg) center center fixed;
     background-size: cover;
 }
+ul{
+    list-style-type: none;
+}
 li{
     width: 80px;
     padding: 5px;
+}
+a{
+    text-decoration: none;
 }
 header{
     background-color: blue;
@@ -18,4 +24,8 @@ main{
     max-width: 300px;
     margin: auto;
     border: 10px;
+}
+div.curso{
+    background-color: lightblue;
+    margin: 10px;
 }

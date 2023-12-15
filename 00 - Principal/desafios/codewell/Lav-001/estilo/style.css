@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1:#D9042B;
+    --cor2:#BF6374;
+    --cor3:#F29BAB;
+    --cor4:#8C0327;
+    --cor5:#57590B;
+    --font-mod1:'Abril Fatface', serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+header{
+    background-color: var(--cor3);
+    margin-bottom: 20px;
+}
+div.produtos{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+div.imagem{
+    border-radius: 10px;
+}
+div.descricao{
+    border-radius: 10px;
+}
+div#imagemcookie{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    background: brown url(../imagem/cooke.jpg) center center fixed;
+    background-size: cover;
+}
+div#descricaocookie{
+    background-color: aquamarine;
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+div#imagempanetone{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    background: brown url(../imagem/panetone.jpg) center center fixed;
+    background-size: cover;
+}
+div#descricaopanetone{
+    background-color: aquamarine;
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+div#imagembolodepote{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    background: brown url(../imagem/bolo-pote.jpg) center center fixed;
+    background-size: cover;
+}
+div#descricaobolodepote{
+    background-color: aquamarine;
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+div#imagemsacole{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    background: brown url(../imagem/sacole.jpg) center center fixed;
+    background-size: cover;
+}
+div#descricaosacole{
+    background-color: aquamarine;
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+footer{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

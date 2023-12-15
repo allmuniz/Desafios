@@ -1,7 +1,50 @@
 @charset "UTF-8";
 @media screen and (min-width: 768px) and (max-width: 992px){
-
+    main{
+        max-width: 600px;
+        margin: auto;
+        border: 10px;
+    }
+    div#listacodewell{
+        width: 200px;
+    }
+    div#imagemcodewell{
+        transform: translate(120%, 0%);
+    }
+    div#listacursoemvideo{
+        width: 200px;
+    }
+    div#listacursoemvideo > ul{
+        columns: 2;
+    }
+    div#imagemcursoemvideo{
+        transform: translate(120% , -30%);
+    }
 }
 @media screen and (min-width: 992px){
-    
+    li{
+        width: 80px;
+        padding: 10px;
+    }
+    main{
+        max-width: 900px;
+        margin: auto;
+        border: 10px;
+    }
+    div#listacodewell{
+        width: 200px;
+    }
+    div#imagemcodewell{
+        transform: translate(340%, 0%);
+    }
+    div#listacursoemvideo{
+        width: 200px;
+    }
+    div#listacursoemvideo > ul{
+        columns: 2;
+    }
+    div#imagemcursoemvideo{
+        transform: translate(340% , -30%);
+    }
+}
 }

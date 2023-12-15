@@ -21,8 +21,9 @@ img{
     height: 150px;
     width: 150px;
 }
-header{
-    background-color: blue;
+header h1{
+    color: white;
+    text-align: center;
 }
 main{
     max-width: 300px;

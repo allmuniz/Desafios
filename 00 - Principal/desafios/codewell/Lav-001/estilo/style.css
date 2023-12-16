@@ -15,16 +15,20 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-color: white;
 }
 header{
     background-color: var(--cor3);
     margin-bottom: 20px;
 }
+main img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
 div.produtos{
     height: 300px;
     width: 300px;
-    background-color: blue;
+    background-color: var(--cor2);
     margin: auto;
     margin-bottom: 20px;
     padding-top: 25px;

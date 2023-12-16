@@ -17,5 +17,21 @@
     }
 }
 @media screen and (min-width: 992px){
-
+    main{
+        height: 690px;
+        max-width: 1200px;
+        margin: auto;
+    }
+    div#cookie{
+        transform: translate(-130% ,0%);
+    }
+    div#panetone{
+        transform: translate(0%, -106.2%);
+    }
+    div#bolodepote{
+        transform: translate(130% ,-212.3%);
+    }
+    div#sacole{
+        transform: translate(-130%, -206%);
+    }
 }

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px) and (max-width: 992px){
+    main{
+        height: 750px;
+    }
+    main img{
+        display: none;
+    }
+    div#imagemcookie > img{
+        display: none;
+    }
+    div#cookie{
+        transform: translate(-65% ,10%);
+    }
+    div#panetone{
+        transform: translate(65%, -96%);
+    }
+    div#bolodepote{
+        transform: translate(-65% ,-90% );
+    }
+    div#sacole{
+        transform: translate(65%, -196%);
+    }
+}
+@media screen and (min-width: 992px){
+
+}

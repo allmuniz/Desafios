@@ -19,6 +19,7 @@ body{
 header{
     background-color: var(--cor3);
     margin-bottom: 20px;
+    text-align: center;
 }
 main img{
     height: 250px;

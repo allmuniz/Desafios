@@ -12,9 +12,13 @@
     --cor5:#57590B;
     --font-mod1:'Abril Fatface', serif;
 }
+p{
+    padding-top: 5px;
+}
 body{
     height: 100vh;
     width: 100vw;
+    background-color: rgba(242, 155, 171, 0.5);
 }
 header{
     background-color: var(--cor3);
@@ -39,6 +43,8 @@ div.imagem{
     border-radius: 10px;
 }
 div.descricao{
+    background-color: var(--cor5);
+    color: white;
     border-radius: 10px;
 }
 div#imagemcookie{
@@ -49,7 +55,6 @@ div#imagemcookie{
     background-size: cover;
 }
 div#descricaocookie{
-    background-color: aquamarine;
     height: 30px;
     width: 250px;
     margin: auto;
@@ -64,7 +69,6 @@ div#imagempanetone{
     background-size: cover;
 }
 div#descricaopanetone{
-    background-color: aquamarine;
     height: 30px;
     width: 250px;
     margin: auto;
@@ -79,7 +83,6 @@ div#imagembolodepote{
     background-size: cover;
 }
 div#descricaobolodepote{
-    background-color: aquamarine;
     height: 30px;
     width: 250px;
     margin: auto;
@@ -94,7 +97,6 @@ div#imagemsacole{
     background-size: cover;
 }
 div#descricaosacole{
-    background-color: aquamarine;
     height: 30px;
     width: 250px;
     margin: auto;

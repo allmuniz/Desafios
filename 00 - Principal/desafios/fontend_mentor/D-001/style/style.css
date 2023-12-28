@@ -4,6 +4,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 h1{
     font-size: 2em;
@@ -12,7 +13,6 @@ h2{
     font-size: 1.6em;
     width: 320px;
     margin-right: 12px;
-    background-color: aqua;
 }
 p{
     display: none;
@@ -43,9 +43,6 @@ div{
 }
 div#box1 > h2{
     
-}
-div#box1 > img{
-    background-color: black;
 }
 footer{
     text-align: center;

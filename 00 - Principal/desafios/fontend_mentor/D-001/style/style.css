@@ -5,7 +5,10 @@
     margin: 0px;
     padding: 0px;
 }
-h1, h2{
+h1{
+    font-size: 1.5em;
+}
+h2{
     font-size: 1.5em;
 }
 p{
@@ -28,14 +31,21 @@ section#boxmain{
     left: 50%;
     top: 10%;
     transform: translate(-50%,0%);
+    border-radius: 15px;
+}
+div{
+    margin: 20px;
 }
 div#box1{
     display: flex;
 }
 div#box1 > h2{
-    width: 270px;
-    margin-right: 60px;
+    width: 340px;
+    margin-right: 12px;
     background-color: aqua;
+}
+div#box1 > img{
+    background-color: black;
 }
 footer{
     text-align: center;

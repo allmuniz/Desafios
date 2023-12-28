@@ -5,17 +5,37 @@
     margin: 0px;
     padding: 0px;
 }
-h1{
-    font-family: ;
+h2{
+    font-size: 1em;
 }
 p{
     display: none;
 }
+body{
+    background-color: rgb(233, 233, 233);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+
+}
 section#boxmain{
-    height: 550px;
+    height: 400px;
     width: 300px;
-    margin: auto;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+div#box1{
+    display: flex;
+}
+div#box1 > h2{
+    width: 200px;
+    margin-right: 60px;
+    background-color: aqua;
 }
 footer{
     text-align: center;
+    display: none;
 }

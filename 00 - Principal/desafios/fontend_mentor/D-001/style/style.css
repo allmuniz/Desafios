@@ -20,13 +20,13 @@ body{
 
 }
 section#boxmain{
-    height: 600px;
+    height: 400px;
     width: 370px;
     background-color: white;
     position: relative;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    top: 10%;
+    transform: translate(-50%,0%);
 }
 div#box1{
     display: flex;

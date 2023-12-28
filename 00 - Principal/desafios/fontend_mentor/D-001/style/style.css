@@ -12,7 +12,8 @@ p{
     display: none;
 }
 body{
-    background-color: rgb(233, 233, 233);
+    background: rgb(233, 233, 233) url(../images/background-pattern-mobile.svg) center center no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -20,7 +21,7 @@ body{
 }
 section#boxmain{
     height: 400px;
-    width: 300px;
+    width: 500px;
     background-color: white;
     position: relative;
     left: 50%;

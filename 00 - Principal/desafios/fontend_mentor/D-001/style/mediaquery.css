@@ -1,1 +1,25 @@
 @charset "UTF-8";
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background: rgb(233, 233, 233) url(../images/background-pattern-desktop.svg) center center no-repeat;
+        background-size: cover;
+    }
+    section#boxmain{
+        width: 530px;
+    }
+    h2{
+        width: 550px;
+    }
+}
+@media screen and (min-width: 992px){
+    body{
+        background: rgb(233, 233, 233) url(../images/background-pattern-desktop.svg) center center no-repeat;
+        background-size: cover;
+    }
+    section#boxmain{
+        width: 630px;
+    }
+    h2{
+        width: 650px;
+    }
+}

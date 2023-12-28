@@ -5,8 +5,8 @@
     margin: 0px;
     padding: 0px;
 }
-h2{
-    font-size: 1em;
+h1, h2{
+    font-size: 1.5em;
 }
 p{
     display: none;
@@ -22,6 +22,7 @@ body{
 section#boxmain{
     height: 400px;
     width: 370px;
+    padding: 20px;
     background-color: white;
     position: relative;
     left: 50%;
@@ -32,7 +33,7 @@ div#box1{
     display: flex;
 }
 div#box1 > h2{
-    width: 200px;
+    width: 270px;
     margin-right: 60px;
     background-color: aqua;
 }

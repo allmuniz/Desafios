@@ -6,10 +6,13 @@
     padding: 0px;
 }
 h1{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 h2{
-    font-size: 1.5em;
+    font-size: 1.6em;
+    width: 320px;
+    margin-right: 12px;
+    background-color: aqua;
 }
 p{
     display: none;
@@ -33,16 +36,13 @@ section#boxmain{
     transform: translate(-50%,0%);
     border-radius: 15px;
 }
+
 div{
-    margin: 20px;
-}
-div#box1{
+    margin-top: 20px;
     display: flex;
 }
 div#box1 > h2{
-    width: 340px;
-    margin-right: 12px;
-    background-color: aqua;
+    
 }
 div#box1 > img{
     background-color: black;

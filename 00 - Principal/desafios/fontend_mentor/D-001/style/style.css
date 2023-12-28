@@ -18,30 +18,7 @@ h2:hover{
     color: rgb(68, 0, 255);
 }
 p{
-}
-img.plus#plus1{
-    position: relative;
-    left: 90%;
-    top: 0%;
-    transform: translate(50%,-510%);
-}
-img.plus#plus2{
-    position: relative;
-    left: 90%;
-    top: 0%;
-    transform: translate(50%,-330%);
-}
-img.plus#plus3{
-    position: relative;
-    left: 90%;
-    top: 0%;
-    transform: translate(50%,-380%);
-}
-img.plus#plus4{
-    position: relative;
-    left: 90%;
-    top: 0%;
-    transform: translate(50%,-380%);
+    display: none;
 }
 body{
     background: rgb(233, 233, 233) url(../images/background-pattern-mobile.svg) center center no-repeat;
@@ -72,6 +49,7 @@ section#boxmain{
 
 div{
     margin-top: 20px;
+    display: flex;
     
 }
 footer{

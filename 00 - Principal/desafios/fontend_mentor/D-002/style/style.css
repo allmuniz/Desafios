@@ -1,1 +1,20 @@
 @charset "UTF-8";
+input#txtemail{
+    background-color: aqua;
+    border: none;
+}
+input#button{
+    background-color: blue;
+    border: none;
+    color: white;
+}
+div#boxmain{
+    width: 375px;
+    margin: auto;
+    background-color: aquamarine;
+}
+div#imagemtop{
+    width: 375px;
+    margin: auto;
+    background-color: aqua;
+}

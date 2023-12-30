@@ -4,7 +4,7 @@
     margin: 0px;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     height: 75px;
@@ -17,15 +17,6 @@ header img{
 div#boxmain{
     width: 375px;
     margin: auto;
-    background-color: aquamarine;
-}
-div#boxmain h1{
-    width: 250px;
-    text-align: center;
-    font-size: 3em;
-    margin: auto;
-    background-color: blue;
-
 }
 div#imagemtop{
     width: 100vw;
@@ -34,6 +25,22 @@ div#imagemtop{
 img#picturewoman{
     width: 100vw;
 }
+div#boxmain h1{
+    width: 250px;
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+}
+div#boxmain span{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 157, 173);
+}
+div#boxmain p{
+    text-align: center;
+    font-size: 17.5px;
+    color: rgb(255, 157, 173);
+}
+
 input#txtemail{
     background-color: aqua;
     border: none;

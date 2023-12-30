@@ -3,14 +3,13 @@
     padding: 0px;
     margin: 0px;
 }
-input#txtemail{
-    background-color: aqua;
-    border: none;
+header{
+    height: 100px;
+    
 }
-input#button{
-    background-color: blue;
-    border: none;
-    color: white;
+header img{
+    height: 30px;
+    margin: 35px 0px 0px 50px;
 }
 div#boxmain{
     width: 375px;
@@ -23,4 +22,13 @@ div#imagemtop{
 }
 img#picturewoman{
     width: 100vw;
+}
+input#txtemail{
+    background-color: aqua;
+    border: none;
+}
+input#button{
+    background-color: blue;
+    border: none;
+    color: white;
 }

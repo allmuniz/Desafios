@@ -14,8 +14,9 @@ div#boxmain{
     background-color: aquamarine;
 }
 div#imagemtop{
-    width: 400px;
+    width: 410px;
     margin: auto;
-    background-color: aqua;
-
+}
+img#picturewoman{
+    width: 410px;
 }

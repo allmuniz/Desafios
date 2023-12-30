@@ -1,4 +1,8 @@
 @charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
 input#txtemail{
     background-color: aqua;
     border: none;

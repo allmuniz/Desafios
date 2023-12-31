@@ -7,6 +7,9 @@ body{
     background: black url(../imagem/background.jpg.jpg) center center fixed;
     background-size: cover;
 }
+.list{
+    width: 90px;
+}
 ul{
     list-style-type: none;
 }
@@ -37,9 +40,6 @@ div.curso{
 div#codewell{
     background-color: #F6F6F6;
 }
-div#listacodewell{
-    width: 90px;
-}
 div#listacodewell > ul > li > a{
     color: black;
 }
@@ -52,9 +52,6 @@ div#imagemcodewell{
 div#cursoemvideo{
     background-color: #2222FF;
 }
-div#listacursoemvideo{
-    width: 90px;
-}
 div#listacursoemvideo > ul > li > a{
     color: white;
 }
@@ -63,4 +60,22 @@ div#imagemcursoemvideo{
     height: 150px;
     margin-left: 20px;
     margin-top: 105px;
+}
+/*--------------------------------*/
+div#frontendmentor{
+    background-color: white;
+    position: relative;
+    width: 93%;
+}
+div#listafrontendmentor > ul > li > a{
+    color: black;
+}
+div#listafrontendmentor{
+
+}
+div#imagemfrontendmentor{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
 }

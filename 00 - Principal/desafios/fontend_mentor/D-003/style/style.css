@@ -20,7 +20,10 @@ body, html{
     color: white;
 }
 p{
-    font-size: 15px;
+    font-size: 14px;
+}
+div.firsttext{
+    padding: 25px;
 }
 div.topstar{
     width: 45px;
@@ -34,7 +37,6 @@ div.topstar{
 }
 section.ratingpage{
     width: 375px;
-    padding: 20px;
     border-radius: 20px;
     background-color: var(--color3);
 

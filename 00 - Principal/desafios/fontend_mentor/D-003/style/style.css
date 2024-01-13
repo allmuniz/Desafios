@@ -23,11 +23,16 @@ body, html{
 p{
     font-size: 14px;
 }
-div.firsttext{
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+section.ratingpage{
+    width: 375px;
+    border-radius: 20px;
+    background-color: var(--color3);
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
 }
 div.topstar{
     width: 45px;
@@ -39,15 +44,11 @@ div.topstar{
     justify-content: center;
     align-items: center;
 }
-section.ratingpage{
-    width: 375px;
-    border-radius: 20px;
-    background-color: var(--color3);
-
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+div.fisttext{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 div.ratingbuttons{
     display: flex;
@@ -88,14 +89,27 @@ input:hover{
 
 section.thankyoupage{
     width: 375px;
-    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    background-color: var(--color3);
 
     position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    display: none;
+    /*display: none;*/
 }
+div.secundtext{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+img.thankyouimg{
+    width: 200px;
+    margin: auto;
+}
+
 
 .attribution{
     display: none;

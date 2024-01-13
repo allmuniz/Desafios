@@ -1,0 +1,34 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+section.ratingpage{
+    width: 375px;
+    background-color: aqua;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+section.thankyoupage{
+    display: none;
+}
+
+.attribution{
+    display: none;
+}
+/*.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/

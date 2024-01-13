@@ -32,7 +32,7 @@ section.ratingpage{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    display: none;
+    display: block;
 }
 div.topstar{
     width: 45px;
@@ -96,7 +96,7 @@ section.thankyoupage{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    /*display: none;*/
+    display: none;
 }
 div.secundtext{
     padding: 25px;

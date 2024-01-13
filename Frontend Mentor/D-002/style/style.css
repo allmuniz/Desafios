@@ -1,0 +1,72 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 75px;
+    
+}
+header img{
+    height: 20px;
+    margin: 25px 0px 0px 50px;
+}
+div#boxmain{
+    width: 375px;
+    margin: auto;
+}
+div#imagemtop{
+    width: 100vw;
+    margin: auto;
+}
+img#picturewoman{
+    width: 100vw;
+}
+div#boxmain h1{
+    width: 250px;
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+}
+div#boxmain span{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 157, 173);
+}
+div#boxmain p{
+    text-align: center;
+    font-size: 17.5px;
+    color: rgb(255, 157, 173);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+div#boxemail{
+    width: 345px;
+    height: 42px;
+    text-align: center;
+}
+input#txtemail{
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 30px;
+    padding: 5px 0px 5px 30px;
+}
+input#button{
+    height: 41px;
+    width: 60px;
+    background-color: rgb(255, 122, 145);
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 30px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 40%;
+    top: 0%;
+    transform: translate(0%, -100%);
+}
+footer{
+    display: none;
+}

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -6,10 +7,17 @@
 body, html{
     width: 100%;
     height: 100%;
+    background-color: hsl(216, 12%, 8%);
+    
+    font-family: 'Kalnia', serif;
+    color: white;
+}
+p{
+    font-size: 15px;
 }
 section.ratingpage{
     width: 375px;
-    background-color: aqua;
+    background-color: hsl(213, 19%, 18%);
 
     position: relative;
     left: 50%;
@@ -24,6 +32,13 @@ section.ratingpage{
 
 
 section.thankyoupage{
+    width: 375px;
+    background-color: hsl(213, 19%, 18%);
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: none;
 }
 

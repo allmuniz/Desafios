@@ -23,11 +23,11 @@
         Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
       </p>
       <div class="ratingbuttons">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
+        <button class="rating" id="button1" onclick="collectValue(this.value);" value="1">1</button>
+        <button class="rating" onclick="collectValue(this.value);" value="2">2</button>
+        <button class="rating" onclick="collectValue(this.value);" value="3">3</button>
+        <button class="rating" onclick="collectValue(this.value);" value="4">4</button>
+        <button class="rating" onclick="collectValue(this.value);" value="5">5</button>
       </div>
       <input type="submit" value="SUBMIT">
     </div>
@@ -56,5 +56,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="script/script.js"></script>
 </body>
 </html>
